@@ -3,7 +3,7 @@ import noteContext from "./noteContext";
 
 
 const NoteState = (props) =>{
-    const host ="http://morning-thicket-99399.herokuapp.com";
+    const host ="https://morning-thicket-99399.herokuapp.com";
     const notesInitial = []
     const [notes, setNotes] = useState(notesInitial)
       
